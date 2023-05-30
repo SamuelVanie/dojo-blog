@@ -5,7 +5,8 @@ import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+export default function App() {
+
   return (
     <Router>
       <div className="App">
@@ -22,5 +23,5 @@ function App() {
     </Router>
   );
 
+}
 
-export default App;
